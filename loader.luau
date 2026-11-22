@@ -4,7 +4,7 @@
 --  Developer: ZynexDev
 -- ============================================================
 
-local VSS_URL = "https://vault.pandauth.com/vss/cf8a83ae9dcd9b5f"
+local VSS_URL = "https://api.jnkie.com/api/v1/luascripts/public/9fc4981cc5c9a7d09954054110ba2eff4dd8b8ea62809b007529ff488c23fb61/download"
 
 local function IsValidLuaScript(content)
     if type(content) ~= "string" or #content < 100 then return false end
